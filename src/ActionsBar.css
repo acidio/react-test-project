@@ -1,0 +1,12 @@
+.actions {
+    position: absolute;
+    right: 1%;
+    top: 2vh;
+    z-index: 2;
+    color: #fff;
+}
+
+.actions .btn {
+    cursor: pointer;
+    margin-right: 5px;
+}

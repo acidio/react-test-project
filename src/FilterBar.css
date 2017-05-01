@@ -1,0 +1,21 @@
+/** FILTER BAR **/
+
+.filters {
+    position: fixed;
+    width: 98%;
+    z-index: 1;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    background: rgba(255, 255, 255, .3);
+    border-bottom: 1px solid #ccc;
+    line-height: 4vh;
+    padding: 1vh 1%;
+    top: 8vh;
+    right: -100%;
+    text-align: right;
+}
+
+.filters.open {
+    right: 0;
+}

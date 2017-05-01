@@ -1,0 +1,25 @@
+button, select {
+    border: 1px solid #fff;
+    background: #fff;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+button:hover, button:active {
+    background: orange;
+    border-color: darkorange;
+}
+
+a {
+    color: orange;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+/** MAP **/
+
+.map-container {
+    height: 100vh;
+}

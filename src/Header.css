@@ -1,0 +1,20 @@
+.header {
+    position: fixed;
+    width: 98%;
+    z-index: 1;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.header {
+    background: rgba(34, 34, 34, .6);
+    line-height: 4vh;
+    top: -8vh;
+    padding: 2vh 1%;
+    color: white;
+}
+
+.header.show {
+    top: 0;
+}
