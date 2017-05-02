@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ActionsBar from './ActionsBar';
 import './FilterBar.css';
 
@@ -21,5 +22,14 @@ const FilterBar = ({ show, filters, onValueChange, toggleFilters, resetFilters, 
         </div>
     </div>
 );
+
+FilterBar.propTypes = {
+    filters: PropTypes.object,
+    onValueChange: PropTypes.func,
+    toggleFilters: PropTypes.func,
+    resetFilters: PropTypes.func,
+    numberOfItems: PropTypes.number,
+    show: PropTypes.bool
+}
 
 export default FilterBar;

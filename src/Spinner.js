@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Spinner.css';
 
 const Spinner = ({ loading }) => {
@@ -20,5 +21,9 @@ const Spinner = ({ loading }) => {
         </div>
     </div>;
 };
+
+Spinner.propTypes = {
+    loading: PropTypes.bool
+}
 
 export default Spinner;

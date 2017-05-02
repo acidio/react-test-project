@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Map.css';
 
 // React Google Maps
@@ -46,5 +47,11 @@ const Map = withGoogleMap(props => (
         </MarkerClusterer>
     </GoogleMap>
 ));
+
+Map.propTypes = {
+    markers: PropTypes.array.isRequired,
+    onMarkerClick: PropTypes.func,
+    onMarkerClose: PropTypes.func
+}
 
 export default Map;
